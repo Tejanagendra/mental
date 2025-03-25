@@ -1,17 +1,17 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Utensils, Bath, Shirt, Bluetooth as Tooth, Cog as Yoga, Moon, Book, Music } from 'lucide-react';
+import { Utensils, Bath, Shirt, Smile as Tooth, Cog as Yoga, Moon, Book, Music } from 'lucide-react';
 import { usePoints } from '../context/PointsContext';
 
 const activities = [
-  { id: 'eating', title: 'Eating', icon: Utensils, color: 'bg-red-100 hover:bg-red-200' },
-  { id: 'bathing', title: 'Bathing', icon: Bath, color: 'bg-blue-100 hover:bg-blue-200' },
-  { id: 'dressing', title: 'Dressing', icon: Shirt, color: 'bg-green-100 hover:bg-green-200' },
-  { id: 'brushing', title: 'Brushing', icon: Tooth, color: 'bg-yellow-100 hover:bg-yellow-200' },
-  { id: 'yoga', title: 'Yoga', icon: Yoga, color: 'bg-purple-100 hover:bg-purple-200' },
-  { id: 'sleeping', title: 'Sleeping', icon: Moon, color: 'bg-indigo-100 hover:bg-indigo-200' },
-  { id: 'learning', title: 'Learning', icon: Book, color: 'bg-pink-100 hover:bg-pink-200' },
-  { id: 'music', title: 'Music', icon: Music, color: 'bg-orange-100 hover:bg-orange-200' },
+  { id: 'eating', title: 'Eating/சாப்பிடுவது', icon: Utensils, color: 'bg-red-100 hover:bg-red-200' },
+  { id: 'bathing', title: 'Bathing/குளிக்கிறோம்', icon: Bath, color: 'bg-blue-100 hover:bg-blue-200' },
+  { id: 'dressing', title: 'Dressing/உடைகள்', icon: Shirt, color: 'bg-green-100 hover:bg-green-200' },
+  { id: 'brushing', title: 'Brushing/பல் துலக்குதல்', icon: Tooth, color: 'bg-yellow-100 hover:bg-yellow-200' },
+  { id: 'yoga', title: 'Yoga/யோகா', icon: Yoga, color: 'bg-purple-100 hover:bg-purple-200' },
+  { id: 'sleeping', title: 'Sleeping/தூக்கம்', icon: Moon, color: 'bg-indigo-100 hover:bg-indigo-200' },
+  { id: 'learning', title: 'Learning/புலமை', icon: Book, color: 'bg-pink-100 hover:bg-pink-200' },
+  { id: 'music', title: 'Music/இசை', icon: Music, color: 'bg-orange-100 hover:bg-orange-200' },
 ];
 
 const ActivityCards = () => {
@@ -21,7 +21,7 @@ const ActivityCards = () => {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <h1 className="text-3xl font-bold text-center mb-12 text-gray-800">
-        Daily Activities Guide
+        Daily Activities Guide / தினசரி செயல்பாடுகள் வழிகாட்டி
       </h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {activities.map((activity) => {

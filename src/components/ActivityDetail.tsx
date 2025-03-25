@@ -28,7 +28,7 @@ const activityDetails = {
         video: '/videos/eating/step5.mp4'
       }
     ],
-    image: 'https://images.unsplash.com/photo-1594627882045-57465104050f?auto=format&fit=crop&q=80&w=800'
+    image: 'src/videos/images/Designer.png'
   },
   bathing: {
     title: 'Bathing Guide',
