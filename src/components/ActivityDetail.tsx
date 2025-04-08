@@ -9,26 +9,26 @@ const activityDetails = {
     steps: [
       {
         text: 'Sit comfortably at the table',
-        video: '/videos/eating/step1.mp4' // Local video path
+        video: './src/videos/eating/step1.mp4' // Local video path
       },
       {
         text: 'Use proper utensils',
-        video: '/videos/eating/step2.mp4'
+        video: 'src/videos/eating/step2.mp4'
       },
       {
         text: 'Take small bites',
-        video: '/videos/eating/step3.mp4'
+        video: 'src/videos/eating/step3.mp4'
       },
       {
         text: 'Chew slowly and carefully',
-        video: '/videos/eating/step4.mp4'
+        video: 'src/videos/eating/step4.mp4'
       },
       {
         text: 'Drink water between bites',
         video: '/videos/eating/step5.mp4'
       }
     ],
-    image: 'src/videos/images/Designer.png'
+    image: './src/videos/images/Designer.png'
   },
   bathing: {
     title: 'Bathing Guide',
