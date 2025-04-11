@@ -25,7 +25,7 @@ const activityDetails = {
       },
       {
         text: 'Drink water between bites',
-        video: '/videos/eating/step5.mp4'
+        video: 'src/videos/eating/step5.mp4'
       }
     ],
     image: './src/videos/images/Designer.png'
